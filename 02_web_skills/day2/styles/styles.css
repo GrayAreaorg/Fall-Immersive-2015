@@ -1,0 +1,50 @@
+body{
+	font-family: 'Arvo', serif;
+}
+
+h1{
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+p {
+	font-weight: 400;
+}
+
+.wrapper{
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.hidden {
+	display: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+li {
+	width: 30px;
+	height: 30px;
+	background-color: #777;
+	color: #FFF;
+	display: block;
+	text-align: center;
+	float: left;
+	padding: 0px 10px 20px 10px;
+	margin: 10px 10px 0px 0px;
+}
+
+.selected{
+	animation: fadeBlack 1s linear;
+	background-color: #000;
+}
+
+@keyframes fadeBlack {
+	0% { background-color: #777}
+	100% { background-color: #000}
+}

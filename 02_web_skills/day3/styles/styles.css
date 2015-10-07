@@ -1,0 +1,64 @@
+body{
+	font-family: helvetica, sans-serif;
+	margin:0;
+	background-color: #147A5F;
+	color: white;
+	font-weight:200;
+}
+
+p{
+	margin: 0;
+}
+
+.cover{
+	width: 400px;
+	text-align: center;
+	margin: 200px auto 0px auto;
+}
+
+.verse {
+	width: 100%;
+	padding: 200px 100px 200px 100px;
+	color: #FFF;
+	font-size: 40px;
+	box-sizing: border-box;
+}
+
+.one{
+	background-color: #147A5f;
+	padding-right: 50%;
+}
+
+.two {
+	background-color: #4A5746;
+	text-align: right;
+	padding-left: 50%;
+}
+
+.three{
+	background-color: #69512F;
+	padding-right: 50%;
+}
+
+.four{
+	background-color: #783D2D;
+	text-align: right;
+	padding-left: 50%;
+}
+
+.five{
+	background-color: #53382D;
+	padding-right: 50%;
+}
+
+.six{
+	background-color: #147A5F;
+	text-align: right;
+	padding-left: 50%;
+}
+
+.seven{
+	background-color: #4A5746;
+	font-size: 60px;
+	text-align: center;
+}
