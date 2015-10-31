@@ -11,7 +11,9 @@
  * 	2: arg1
  * 	3: arg2
  */
+console.log("Type your name");
+console.log("Hello " + process.argv[2]);
 
-process.argv.forEach(function(val, index, array) {
-	console.log(index + ': ' + val);
-});
+// process.argv.forEach(function(val, index, array) {
+// 	console.log(index + ': ' + val);
+// });

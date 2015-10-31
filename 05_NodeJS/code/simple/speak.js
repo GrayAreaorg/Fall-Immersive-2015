@@ -2,6 +2,8 @@
 var exec = require('child_process').exec;
 //This variable stores the command we want to execute, we are going to use the say command
 var say = 'say ';
+var voice = "-v " + process.argv[2];
+var tosay = " " + process.argv[3];
 
 //let's make a function that speaks
 function speak(whatosay){
@@ -11,7 +13,9 @@ function speak(whatosay){
 	console.log(whatosay)
 }
 // call the function
-speak("I just do this but " + process.platform + " rules");
+// speak("I just do this but " + process.platform + " rules");
+speak(say + voice + tosay);
+console.log("type voice and what to say")
 
 /*
 List of voices add -v nameof voice to use on line 4. var say = 'say -v Bad News ';

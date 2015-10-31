@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/howler.min.js"></script>
+</head>
+<body>
+<script>
+var socket = io.connect('//localhost:3000');
+    socket.on('data', function(data) {
+        console.log(data);
+        $('#incoming').text(data);
+    });
+    socket.on('error', function() {
+        console.error(arguments)
+    });
+</script>
+<h1 id="incoming">hi</h1>
+</body>
+</html>

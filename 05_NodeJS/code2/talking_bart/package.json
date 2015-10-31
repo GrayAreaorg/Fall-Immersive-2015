@@ -1,0 +1,15 @@
+{
+  "name": "j5_lcd_bart",
+  "version": "1.0.0",
+  "description": "pip baart data to an Lcd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Hellar",
+  "license": "ISC",
+  "dependencies": {
+    "bart": "0.0.3",
+    "johnny-five": "^0.9.1"
+  }
+}

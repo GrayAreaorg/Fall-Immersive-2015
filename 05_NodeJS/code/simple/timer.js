@@ -9,9 +9,12 @@
  * clearInterval(timer) : stops a corresponding setInterval callback
  */
 
-var repeatingFunction = setInterval(function() {
+var repeatingFunction = setTimeout(writePing,1000);
+
+function writePing(){
 	console.log("Ping");
-},1000);
+}
+
 
 //******************************************************************************//
 
