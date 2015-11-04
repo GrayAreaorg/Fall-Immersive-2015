@@ -23,30 +23,30 @@ The History:
 
 
 The Interface:
-* [Four Ways to Unlock](https://cycling74.com/2011/04/12/week-1/#.VjlLRq6rRE4)
+* Max Tour
+* Locking vs Unlocking [Four Ways to Unlock](https://cycling74.com/2011/04/12/week-1/#.VjlLRq6rRE4)
 * Inlets & Outlets
 * Presentation View
-* Key Commands:
 * Order of Operations (R to L)
 * Finding Help
 * Patches in Text (compressed and uncompressed): [example](http://cycling74.com/toolbox/8-channel-mixer/)
-* Patch Cables
-* Hide on lock
-* Align
-* Segmented patch cords
-* Patch Inspector
+* [Types of Patch Cords](https://docs.cycling74.com/max7/vignettes/patch_cords)]
+* [Patch Cord Alignment](https://docs.cycling74.com/max7/vignettes/aligning_patchcords)
+* [Inspector](https://docs.cycling74.com/max7/vignettes/inspector)
+* [Documentation](https://docs.cycling74.com/max7/)
+* [Keyboard Shortcuts](https://docs.cycling74.com/max7/vignettes/shortcuts)
 
-General Concept of Objects, Arguments & Messages:
-* Object is a contained chunk of code that does something
-* Argument is missing/variable/externally-supplied data
+General Concepts:
+* Objects
+* Subpatches
+* Initializing Objects
 * Message Types
-    ⁃    Integer = 0
-    ⁃    Floating point = 0.0
-    ⁃    Message = Symbol = hello world
-    ⁃    Message is command that directs object’s behavior
-    ⁃    example: “stop” message for metro
-    ⁃    bang is a message
-
+    ⁃ Integer = 0
+    ⁃ Floating point = 0.0
+    ⁃ Message = Symbol = hello world
+    ⁃ Message is command that directs object’s behavior
+    ⁃ example: “stop” message for metro
+    ⁃ bang is a message
 
 Overview of Essential Objects:
 * counter
