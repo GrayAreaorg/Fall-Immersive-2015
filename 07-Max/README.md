@@ -62,6 +62,49 @@ Create standalone application that creates your own music composition in the sty
 ### Thursday, November 6th (6-9pm)
 MSP(Audio) + Processing via OSC
 
+* Recap from Class 1 and New Materials
+    - Sends and Receives
+
+* Synthesis
+	- Amplitude
+		⁃ Visualizing
+			- understanding [number~] & how to limit for safety
+			- [meter~]
+			- [levelmeter~] 
+		⁃ Mixing	 	= [gain~]
+		⁃ Envelopes 		= [function]
+		⁃ Selecting		= [selector~]
+	- Waveforms: The Building Blocks
+		⁃ Sine 	 		= [cycle~]
+		⁃ Square 		= [rect~]
+		⁃ Saw	 		= [saw~]
+		⁃ Triangle 		= [tri~]
+		⁃ White Noise 		= [noise~]
+		⁃ Pink Noise 		= [pink~]	 
+	- Effects
+		⁃ Delay 		= [delay~]
+		⁃ Delay+Feedback	= [tapin~] & [tapout~] 
+		⁃ Reverb		= [yafr2] (reverb_example.maxpat)		
+		⁃ Filters		= [biquad~] + [filtergraph]
+
+
+* Making it Fun
+	- Modulation using Sequencers and Envelopes [techno~] 
+	- Using MIDI Controllers: [notein] & [ctlin] 
+	- Presets	= [preset]
+	- Adding an Interface in Presentation Mode
+
+* [BEAP Audio Curriculum](https://cycling74.com/wiki/index.php?title=BEAP_Analog_Model_Curriculum_Outline&oldid=4425)
+* [BEAP: Getting Started - youtube video](https://www.youtube.com/watch?v=A7EMG7Tnots)
+* Processing via OSC
+	- OSC-Route: http://cnmat.berkeley.edu/downloads
+	- TouchOSC
+	- [Route]
+	- OSC_sampler  
+* [PureData (PD)](http://puredata.info/)
+* jWeb
+* [MaxObjects Database](http://www.maxobjects.com/)
+
 
 ### Saturday, November 8th (12-4pm)
 Jitter (Video + Controllers (Arduino))
