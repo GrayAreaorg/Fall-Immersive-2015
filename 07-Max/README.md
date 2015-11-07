@@ -71,22 +71,21 @@ MSP(Audio) + Processing via OSC
 			- understanding [number~] & how to limit for safety
 			- [meter~]
 			- [levelmeter~] 
-		⁃ Mixing	 	= [gain~]
+		⁃ Mixing	 	    = [gain~]
 		⁃ Envelopes 		= [function]
-		⁃ Selecting		= [selector~]
+		⁃ Selecting		    = [selector~]
 	- Waveforms: The Building Blocks
-		⁃ Sine 	 		= [cycle~]
-		⁃ Square 		= [rect~]
-		⁃ Saw	 		= [saw~]
-		⁃ Triangle 		= [tri~]
+		⁃ Sine 	 		    = [cycle~]
+		⁃ Square 		    = [rect~]
+		⁃ Saw	 		    = [saw~]
+		⁃ Triangle 		    = [tri~]
 		⁃ White Noise 		= [noise~]
 		⁃ Pink Noise 		= [pink~]	 
 	- Effects
-		⁃ Delay 		= [delay~]
+		⁃ Delay 		    = [delay~]
 		⁃ Delay+Feedback	= [tapin~] & [tapout~] 
-		⁃ Reverb		= [yafr2] (reverb_example.maxpat)		
-		⁃ Filters		= [biquad~] + [filtergraph]
-
+		⁃ Reverb		    = [yafr2] (reverb_example.maxpat)		
+		⁃ Filters		    = [biquad~] + [filtergraph]
 
 * Making it Fun
 	- Modulation using Sequencers and Envelopes [techno~] 
@@ -102,12 +101,41 @@ MSP(Audio) + Processing via OSC
 	- [Route]
 	- OSC_sampler  
 * [PureData (PD)](http://puredata.info/)
-* jWeb
 * [MaxObjects Database](http://www.maxobjects.com/)
 
 
 ### Saturday, November 8th (12-4pm)
 Jitter (Video + Controllers (Arduino))
+
+* Input
+    - [notein]
+    - [ctlin]
+    - OSC
+        - [FaceOSC](https://github.com/kylemcdonald/ofxFaceTracker/downloads)
+        - [FaceOSC Messages](https://github.com/kylemcdonald/ofxFaceTracker/wiki/Osc-message-specification)
+        - [FaceOSC Tempaltes](https://github.com/CreativeInquiry/FaceOSC-Templates)
+        - [LeapMotion](http://ismm.ircam.fr/leapmotion/)
+    - [OSC-Route](http://cnmat.berkeley.edu/patch/4029)
+
+* Structure 
+    - Messages
+    - bPatchers
+    - triggers
+
+* Vizzie
+    - MOVIEFOLDR
+    - PLAYR
+    - VIEWR
+    - PROJECTR
+    - GRABBR
+    - AUDIOSPLITTR
+
+* [cv.jit](http://jmpelletier.com/cvjit/)
+* jWeb
+
+
+Assignment:
+Create a music visulizer that responds to the audio .
 
 
 ----------
