@@ -1,0 +1,5 @@
+This code requires p5 2.0 and various libraries, see individual sketches for dependencies. 
+
+Gabriel Dunne  
+gabe@gabrieldunne.com  
+[gabrieldunne.com](http://gabrieldunne.com)
