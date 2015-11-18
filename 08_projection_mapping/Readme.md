@@ -22,6 +22,8 @@ Taught by [Taurin Barrera](http://www.taurinbarrera.com)
 * [Flying Lotus x Strangeloop](https://vimeo.com/52415848)
 * [Obscura Digital - illUmiNations: Protecting Our Planet](http://obscuradigital.com/work/climate_summit_2014/)
 * [Projection Bombing - Instructable](http://www.instructables.com/id/PROJECTION-BOMBING/)
+* [Box (Process) - Bot & Dolly](https://vimeo.com/102776011)
+* [Sony Realtime Projection Mapping](https://vimeo.com/34021153)
 
 ## DIY
 ##### Find an object, spatial detail, or unique surface and write down 5 qualities it has.
@@ -98,6 +100,8 @@ Look at the 5 qualities you wrote down and think about how they are affected by 
 
 HW: Have a look back at the questions and answer them for a piece to be prototyped on Saturday. 
 
-
+# Additional Links and Resources
+* [Projector Central](http://www.projectorcentral.com/)
+* [Projection Mapping Blog](http://projection-mapping.org/)
 
 
